@@ -5,9 +5,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+ruby '~> 2.3.3'
 gem 'pg'
 gem 'rails_12factor', group: :production
-gem 'bootstrap', '~> 4.1.3'
+gem 'bootstrap', '>= 4.3.1'
 gem 'rails-ujs', '~> 5.1.0.beta1'
 gem 'bootstrap_form'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
