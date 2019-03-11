@@ -48,6 +48,8 @@ group :development, :test do
   gem 'database_cleaner'
   gem 'shoulda-matchers'
   gem 'brakeman', require: false
+  gem 'factory_bot_rails', '~> 4.0'
+  gem 'faker', :git => 'https://github.com/stympy/faker.git', :branch => 'master'
 end
 
 group :development do
